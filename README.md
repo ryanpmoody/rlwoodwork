@@ -1,33 +1,43 @@
 # 👋 Hello developer!
-This is one of the many templates available from W3schools. Check our [tutorials for frontend development](https://www.w3schools.com/where_to_start.asp) to learn the basics of [HTML](https://www.w3schools.com/html/default.asp) and [CSS](https://www.w3schools.com/css/default.asp). 🦄
 
+This is a C# with ASP.NET Core and Razor Pages project template. Check our [tutorials for frontend development](https://www.w3schools.com/where_to_start.asp) to learn the basics of [HTML](https://www.w3schools.com/html/default.asp), [CSS](https://www.w3schools.com/css/default.asp). If you're new to Java, check out our Java tutorial [C#](https://www.w3schools.com/cs) Also, to learn more about ASP.NET Core and Razor Pages, check out the ASP.NET Core Razor Pages tutorial. 💻
 
-## 🏗 What's next?
-Customize this template to make it your own. Remember to make your layout responsive - if you want your site to look good on smaller screens like mobile. 
+## Knowledge requirements
 
-## 🎨 Where to find everything
+To be able to fully understand and modify this project, you should know (or learn):
 
-- **External style sheet:** The template you chose is built with [W3CSS](https://www.w3schools.com/w3css/default.asp), placed in an external style sheet. You can either replace that style sheet - or keep it simple and leave it in.  
-	[Go to tutorial about W3CSS](https://www.w3schools.com/w3css/default.asp)
+[C#](https://www.w3schools.com/cs)
+[ASP.NET](https://www.w3schools.com/asp/default.asp)
+[Razor](https://www.w3schools.com/asp/webpages_razor.asp)
 
-- **Fonts:** Explore the options from **Google fonts** and add your favorite.  
-	[Go to tutorial about fonts](https://www.w3schools.com/w3css/w3css_fonts_google.asp)
+## 🔨 What's next?
 
-- **Icons:** Icons are from **Fontawesome**. You can reuse those and choose other free icons from their free library.  
-	[Go to tutorial about Fontawesome](https://www.w3schools.com/icons/fontawesome5_intro.asp)
+Customize this project to make it your own. Implement new features, modify existing ones, or integrate it with other technologies.
 
-- **Images:** Replace the images by uploading your own and updating their URLs.  
-	[Go to article about how to upload files](https://support.w3schools.com/hc/en-gb/articles/4410414928017)
+## 🎨 Where to find everything?
 
-> ⚡️ **Tip:** [Set up Google Analytics](https://www.w3schools.com/howto/howto_google_analytics.asp) to get valuable insights about your space and visitors. 
+The project is structured as follows:
 
+Pages folder contains the Razor Pages.
+wwwroot folder contains the static resources (e.g., HTML, CSS, JavaScript files).
+appsettings.json contains the application properties.
 
-### ⛑ Need support?
-[Join our Discord community](https://discord.gg/6Z7UaRbUQM) and ask questions in the **#spaces-general** channel.
+### Database
 
+Dynamic spaces can use [SQLite](https://www.sqlite.org/docs.html) database.  
+The database file is called `database.db`. It is placed inside the `w3s-dynamic-storage` folder.  
+SQLite connection path to the database is `w3s-dynamic-storage/database.db` which you can use to connect to the SQLite database programmatically.   
 
-### 🚀 Upgrade to Pro
-[Upgrade your account](https://billing.w3schools.com/products/spaces) to boost your space and take your projects to the next level; more requests, more storage and more power for up to 10 spaces.
+---  
+**Do not change the `w3s-dynamic-storage` folder name or `database.db` file name!**  
+**By changing the `w3s-dynamic-storage` folder name or `database.db` file name, you risk the space not working properly.**
 
+## 🔨 Please note
 
-Happy learning!
+For now, files created/uploaded or edited from within the terminal view will not be backed up or synced.
+When you're in the editor, the dev server will automatically be running and any changes you make will automatically restart the app. Once you exit the editor, your app will be served by Kestrel.
+
+## ⛑ Need support?
+
+Join our Discord community and ask questions in the #aspnet-core-razor-pages-general channel to get your project on the next level.
+Send us a ticket if you have any technical issues with the project."
